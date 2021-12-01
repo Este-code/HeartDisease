@@ -16,7 +16,7 @@ This dataframe has 12 features, categorical and nurmerical.
 
 'HeartDisease' will be the target on which I will be building the model.
 
-![alt text](https://github.com/Este-code/HeartDisease/blob/main/images/image_2.png)
+![alt text](https://github.com/Este-code/HeartDisease/blob/main/images/Image_2.png)
 
 From the dataframe descriction one can notice an intersting factor; the minimum value of Cholesterol and FastingBS are both zero.
 
