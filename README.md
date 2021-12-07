@@ -47,4 +47,24 @@ Based on this graph, ATA is the one that occurs more often that the others.
 
 From the heatmp one can see that there are not high related features, therefore I can only assume that all the features are important for the purpose of the model.
 
+**Model**
+
+For this dataset I will use a supervised learning method.
+The first step is to do a basic feature engineering, in order to extrapolate the best accuracy and to feed the model with every feature.
+
+![alt text](https://github.com/Este-code/HeartDisease/blob/main/images/features.png)
+
+This are the first five rows of the dataset, after I changed the categorical features by simply replacing each unique observation with a numerical value.
+
+**Logistic regression**
+
+Since our target has a binary output, I decided to use the logistic regression model.
+
+![alt text](https://github.com/Este-code/HeartDisease/blob/main/images/logistic_regression.png)
+
+I trained this model with 80% of data from the dataset, using all the features. 
+The accuracy of prediction is 84%, which is really good, however ther is still room for improvement.
+
+
+
 
